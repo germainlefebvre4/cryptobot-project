@@ -9,3 +9,5 @@ The project is composed with the following repositories:
   * [cryptobot-api](https://github.com/germainlefebvre4/cryptobot-api): The API-side source code written in Python 3 with the [FastAPI](https://github.com/tiangolo/fastapi) framework.
   * [cryptobot-controller](https://github.com/germainlefebvre4/cryptobot-controller): The API-backed in-cluster (kubernetes cluster) inspector source code written in Python 3 with the [FastAPI](https://github.com/tiangolo/fastapi) framework.
   * [cryptobot-operator](https://github.com/germainlefebvre4/cryptobot-operator): The Kubernetes operator that manage cryptobots inside the kubernetes cluster written in Python 3 withe the framework [Kopf](https://github.com/nolar/kopf).
+  * [cryptobot-charts](https://github.com/germainlefebvre4/cryptobot-charts): Helm charts to deploy the whole application
+  * [cryptobot-eks](https://github.com/germainlefebvre4/cryptobot-eks): Configuration to setup an EKS cluster
